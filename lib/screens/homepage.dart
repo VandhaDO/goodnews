@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
     try {
       final response = await http.get(
         Uri.parse(
-            'https://newsapi.org/v2/top-headlines?country=id&apiKey=4f3210aded524f3880343e4495f15bdb'),
+            'https://newsapi.org/v2/top-headlines?country=id&apiKey=d4852a2c7d8c45229a7f91264eba51ae'),
       );
 
       if (response.statusCode == 200) {
